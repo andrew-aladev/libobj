@@ -2,13 +2,10 @@
 #define OBJ_H
 
 
-    typedef struct {
-        int v, vt, vn;
-    } fv_t;
 
     typedef struct {
         unsigned int fv_size;
-        fv_t *fv;
+        int (*fv)[3]; // v/vt/vn
     } f_t;
 
     typedef struct {
@@ -23,6 +20,7 @@
     } obj_t;
 
 
+    obj_t *obj_new();
     obj_t *obj_load(const char *path);
     void obj_free(obj_t *obj);
 

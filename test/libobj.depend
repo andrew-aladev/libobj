@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1356467068 source:/home/moritz/Development/C++/libobj/test/src/main.c
+	"obj.h"
+	"stdio.h"
+
+1356466496 /home/moritz/Development/C++/libobj/include/obj.h
+
+1356468452 source:/home/moritz/Development/C++/libobj/src/obj.c
+	"obj.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<errno.h>
+	<ctype.h>
+	<limits.h>
+
